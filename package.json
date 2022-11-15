@@ -11,7 +11,8 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
