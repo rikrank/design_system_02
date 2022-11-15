@@ -26,5 +26,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
