@@ -1,7 +1,7 @@
 {
   "name": "@rikrank/template-react-component-library-test",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@rikrank"
+    "registory": "https://npm.pkg.github.com/@rikrank"
   },
   "version": "1.1.2",
   "license": "MIT",
