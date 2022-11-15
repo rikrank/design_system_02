@@ -2,7 +2,7 @@
 
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { Container } from "./Container";
+import Container from "./Container";
 
 export default {
   /* 👇 The title prop is optional.

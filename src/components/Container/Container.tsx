@@ -11,7 +11,7 @@ const gridStyle = (maxWidth: number | string) => {
   return `display:grid; grid-template-columns: 1fr min(${maxWidth}px, 100% - 20px * 2) 1fr; & > * { grid-column:2;}`;
 };
 
-export const Container = (props: Props) => {
+const Container = (props: Props) => {
   const { children, maxWidth, isGrid } = props;
   return (
     <SContainer maxWidth={maxWidth} isGrid={isGrid}>
@@ -19,6 +19,8 @@ export const Container = (props: Props) => {
     </SContainer>
   );
 };
+
+export default Container;
 
 const SContainer = styled.div<Props>`
   max-width: ${(props) =>

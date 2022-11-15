@@ -16,9 +16,6 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "include": [
-      "typed-css.d.ts"
-    ]
+    "emitDeclarationOnly": true
   }
 }
