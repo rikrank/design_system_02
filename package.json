@@ -1,10 +1,11 @@
 {
   "name": "@rikrank/template-react-component-library-test",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@rikrank"
-  },
   "version": "1.2.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikrank/template-react-component-library-test.git"
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "rollup": "rollup -c"
